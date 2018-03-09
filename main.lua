@@ -37,6 +37,5 @@ local function randomNumber(event)
 		result = display.newText('Oh no! The number was '.. randomNumberEQ, display.contentCenterX, display.contentCenterY, native.SystemFont, 100)
 	end
 end 
-print(randomNumberEQ)
 
 myButton: addEventListener('touch', randomNumber)
